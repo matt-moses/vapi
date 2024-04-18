@@ -40,8 +40,8 @@ CREATE TABLE `a_p_i1_users` (
 --
 
 INSERT INTO `a_p_i1_users` (`id`, `username`, `name`, `course`, `password`) VALUES
-(1, 'michaels', 'Michael Scott', 'flag{api1_d0cd9be2324cc237235b}', '60!eH>Rt=d\'-'),
-(2, 'meredithp', 'Meredith Palmer', 'The Subtle art of not giving a F***', '[NaZ7RUMbK#O'),
+(1, 'michaels', 'Michael Scott', 'FLAG{87e63245-18a7-4ecf-9616-cd2805f78161}', '60!eH>Rt=d\'-'),
+(2, 'meredithp', 'Meredith Palmer', 'The Subtle art of not giving a Care', '[NaZ7RUMbK#O'),
 (3, 'pambeese', 'Pam Beesly', 'Sketching for Dummies', '/&T=_yEA5,_L'),
 (4, 'jimhalp', 'Jim Halpert', 'Art of Pranks', 'ag4|YY~`M=Gk');
 
@@ -68,7 +68,7 @@ CREATE TABLE `a_p_i2_users` (
 
 INSERT INTO `a_p_i2_users` (`id`, `email`, `password`, `name`, `token`, `address`, `city`, `country`) VALUES
 (1, 'savanna48@ortiz.com', 'zTyBwV/9', 'Evelyn', 'Fp0r1mty_gxK9DRZ5IUw3sX2enQ6rau68M6YGyoqR3XoBG13wtSbvmdaK5CB', '10th Downing', 'Mesport', 'USA'),
-(2, 'hauck.aletha@yahoo.com', 'kU-wDE7r', 'Tara', '1Nkoz6quzJiis1SEonJeSxwkXTzSzcULofbL9O7KPz6_sKGkUcQDzoNfI5aA', 'flag{api2_6bf2beda61e2a1ab2d0a}', 'Delhi', 'India'),
+(2, 'hauck.aletha@yahoo.com', 'kU-wDE7r', 'Tara', '1Nkoz6quzJiis1SEonJeSxwkXTzSzcULofbL9O7KPz6_sKGkUcQDzoNfI5aA', 'FLAG{98227cd7-dc2f-44dd-be7c-cf28334805d9}', 'Delhi', 'India'),
 (3, 'harber.leif@beatty.info', 'kU-wDE7r', 'Joyce', 'sLqs17RjmdlWoBP2ONdAPP8WtIVNwlyz_qzLwhmJGboWD_asFICYggcE3bPi', 'San Jose', 'California', 'USA');
 
 -- --------------------------------------------------------
