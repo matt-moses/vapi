@@ -7,11 +7,11 @@ RUN apt-get update \
     && docker-php-ext-install zip
 COPY --from=composer:latest /usr/bin/composer /usr/local/bin/composer
 
-COPY ./vapi /var/www/html/vapi
+COPY ./vapi /var/www/html/api
 
-RUN rm /var/www/html/vapi/.env
+RUN rm /var/www/html/api/.env
 
-RUN echo "flag{ssrf_e0pgt3az9zeqdd4fhatc}" > /flag.txt
+#RUN echo "flag{ssrf_e0pgt3az9zeqdd4fhatc}" > /flag.txt
 
 RUN php /var/www/html/vapi/artisan config:cache
 
